@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar_logo">
           <a href="#home" className="logo">
-            <img src="public/assets/DeepthiLogo.png" alt="D_logo" />
+            <img src="assets/DeepthiLogo.png" alt="D_logo" />
           </a>
         </div>
 
