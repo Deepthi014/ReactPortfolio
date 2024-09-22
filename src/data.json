@@ -2,7 +2,7 @@
     "home":[
         {
             "introduction":"I am a versatile software developer skilled in front-end, back-end, and full-stack development. I specialize in creating dynamic and responsive web applications and am passionate about continuously expanding my skills.",
-            "img":"public/assets/Deepthi_HD_img.png"       
+            "img":"/assets/Deepthi_HD_img.png"       
         }
     ],
     "education":[
