@@ -10,18 +10,56 @@ const Skill = () => {
                 <div className='skill-content'>
                  <h2 className='skill-title'>Technical Skills</h2>
                   <div className='skills'>
-                    {
-                      data.tech_skills.map((item, id)=>{
-                        return(
-                            <div key={id} className='skill'>
-                                <div className='skill-img'>
-                                    <img src={item.img} alt={item.title} />
-                                </div>
-                                <p>{item.title}</p>
-                            </div>
-                        );  
-                      })  
-                    }
+
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/python.png" alt="PYTHON" />
+                    </div>
+                    <p>PYTHON</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/java.png" alt="PYTHON" />
+                    </div>
+                    <p>JAVA</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/html.png" alt="PYTHON" />
+                    </div>
+                    <p>HTML</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/css.png" alt="PYTHON" />
+                    </div>
+                    <p>CSS</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/javascript.png" alt="PYTHON" />
+                    </div>
+                    <p>JAVA SCRIPT</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/react.png" alt="PYTHON" />
+                    </div>
+                    <p>REACT</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/figma.png" alt="PYTHON" />
+                    </div>
+                    <p>FIGMA</p>
+                  </div>
+                  <div className='skill'>
+                    <div className='skill-img'>
+                      <img src="assets/mongoDb.png" alt="PYTHON" />
+                    </div>
+                    <p>MONGODB</p>
+                  </div>
+                                   
                   </div>
                 </div>
 

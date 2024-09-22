@@ -1,7 +1,5 @@
 import React from 'react'
 import './Project.css'
-import data from '../data.json'
-
 
 const Project = () => {
   return (
@@ -9,23 +7,34 @@ const Project = () => {
         <div className="project_container">
           <h1 className="sub-title">My Work</h1>
           
-
           <div className="work-list">
-
-          {data.project.map((item)=>(
-      
             <div className="work">
-              <img src={item.img} alt="" />
+              <img src="assets/Project1.png" alt="" />
               <div className="layer">
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-                <a href={item.url} target='_blank'><i class='bx bx-link-external'></i></a>
+                <h3>Temple Website</h3>
+                <p>Temple Website using HTML, CSS.</p>
+                <a href="https://deepthi014.github.io/Temple/" target='_blank'><i class='bx bx-link-external'></i></a>
               </div>
             </div>
-            ))} 
+            <div className="work">
+              <img src="assets/Project3.png" alt="" />
+              <div className="layer">
+                <h3>Restaurant Website</h3>
+                <p>Restaurant Website using HTML CSS and Java Script.</p>
+                <a href="https://deepthi014.github.io/RestoProject/" target='_blank'><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div className="work">
+              <img src="assets/Project2.png" alt="" />
+              <div className="layer">
+                <h3>Social Website</h3>
+                <p>Social Website using React JS</p>
+                <a href="https://deepthi014.github.io/Temple/" target='_blank'><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+    
           </div>
         
-          {/* <a href="#" className='project-btn'>See more</a> */}
         </div>
     </div>
   )

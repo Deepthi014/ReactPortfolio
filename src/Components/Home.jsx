@@ -33,7 +33,7 @@ const Home = () => {
             </div>
 
             <div className="home_img">
-                <img src={item.img} alt="Profile_img" />
+                <img src="assets/Deepthi_HD_img.png" alt="Profile_img" />
             </div>
         </React.Fragment>
         ))}
