@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* :root{
+    --font-home:'Kanit';
+    --font-family:'Montserrat';
+
+    --color-bg:#1f2833;
+    --color-subtext:#c5c6c7;
+    --color-text:#4ecdc4;
+    --color-white:#ffffff;
+
+    --color-bg:#eeedeb;
+    --color-subtext:#555658;
+    --color-text:#05a297;
+    --color-white:#ffffff; 
+
+} */
+
+/* #ddf3fb nice color */
+:root {
+    --font-home:'Kanit';
+    --font-family:'Montserrat';
+    --color-bg: #d0cece;
+    --color-text: #05a297;
+    --color-subtext: #2d2d2d;
+    --color-white: #ffffff;
+}
+
+/* Dark mode styles */
+[data-theme='dark'] {
+    --color-bg: #1f2833;
+    --color-text: #4ecdc4;
+    --color-subtext: #c5c6c7;
+    --color-white: #ffffff;
+}

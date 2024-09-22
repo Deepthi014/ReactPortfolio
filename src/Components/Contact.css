@@ -1,0 +1,211 @@
+
+html{
+    scroll-padding-top:3rem ;
+}
+.contact-container{
+    padding:4rem 4rem;
+}
+.contact-title{
+    font-size: 3rem;
+    color:var(--color-text) ;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 30px;
+} 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left{
+    flex-basis:35% ;
+    color:var(--color-subtext);
+    
+}
+.contact-right{
+    flex-basis:60% ;
+    
+}
+.contact-left p{
+    margin-top: 20px ;
+    margin-left: 30px;
+}
+.contact-left p i{
+    color:var(--color-text);
+    margin-right: 13px;
+    font-size: 25px;
+
+}
+.bx.bx-send{
+    rotate: -30deg;
+}
+.social-icons{
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size:35px;
+    margin-right:15px;
+    color:var(--color-subtext);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:var(--color-text);
+    transform: translateY(-5px);
+}
+.c_btn{
+    padding:12px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width:7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin:2rem 2rem;
+}
+.contact-right form{
+    width:90%;
+    padding-left: 3rem;
+}
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background: #fcfcfc1f;
+    padding:15px;
+    margin-top:30px;
+    color:var(--color-subtext) ;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding:14px 60px;
+    font-size: 14px;
+    margin: 20px auto;
+    /* margin: 20px 0px 0px 0px; */
+    cursor: pointer;
+}
+
+@media screen and (max-width:980px) {
+    .contact-title{
+        font-size: 2.5rem;
+        margin-left: 15px;
+    } 
+    .contact-left{
+        flex-basis:50% ;        
+    }
+    .contact-right{
+        flex-basis:70% ;
+    }
+    .contact-left p{
+        margin-top: 15px ;
+        margin-left: 15px;
+    }
+    .contact-left p i{
+        margin-right: 13px;
+        font-size: 25px;
+    
+    }
+    .social-icons{
+        margin-top: 35px;
+        margin-left: 15px;
+    
+    }
+    .social-icons a{
+        font-size:32px;
+        margin-right:15px;
+    }
+    .c_btn{
+        padding:10px 14px;
+        font-size: 13px;
+        width:7rem;
+        margin:2rem 1rem;
+    }
+    .contact-right form{
+        width:90%;
+        padding-left: 3rem;
+    }
+    form input, form textarea{
+        padding:12px;
+        margin-top:25px;
+        font-size: 16px;
+    }
+    
+    form .btn2{
+        padding:10px 16px;
+        font-size: 13px;
+    }
+    
+    
+}
+@media screen and (max-width:790px) {
+    
+    /* where should i write mail & number>>>confuse */
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-title{
+        font-size: 2.5rem;
+        margin-left: 15px;
+    } 
+    .contact-left{
+        flex-basis:100% ;  
+        text-align: left;      
+    }
+    .contact-right{
+        flex-basis:100% ;
+    } 
+    .contact-left p{
+        font-size: 13px;
+        margin-top: 15px ;
+        margin-left: 15px;
+    }
+    .contact-left p i{
+        margin-right: 10px;
+        font-size: 22px;
+    
+    }
+    .social-icons{
+        margin-top: 35px;
+        margin-left: 15px;
+    
+    }
+    .social-icons a{
+        font-size:32px;
+        margin-right:15px;
+    }
+    .c_btn{
+        padding:10px 14px;
+        font-size: 12px;
+        width:6rem;
+        margin:2rem 1rem;
+    }
+    .contact-right form{
+        width:90%;
+        padding-left: 0rem;
+    }
+    form input, form textarea{
+        padding:12px;
+        margin-top:20px;
+        font-size: 14px;
+    }
+    
+    form .btn2{
+        padding:10px 16px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+     
+    
+}
+
+
+
+
